@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+:root {
+    --bg-color: #D8D8D8;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/4595241-simple-simple-background-gradient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(137, 66, 188);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+header .logo:hover {
+    color: rgb(137, 66, 188);
+    background: white;
+    transition: 1s;
+}
+
+header .navbar {
+    position: relative;
+    display: flex;
+}
+
+header .navbar li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+header .navbar li a:hover {
+    border-bottom: 5px solid rgb(137, 66, 188);
+    padding: 2px;
+}
+
+/*contenido de la web*/
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.content .tituloBox {
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+
+.content .tituloBox h2 {
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.content .tituloBox h2 span {
+    background: rgb(137, 66, 188);
+    color: white;
+    padding: 0 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.content .tituloBox p {
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.content .tituloBox a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(137, 66, 188);
+    background: white;
+    padding: 10px 20px;
+    margin: left 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.content .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -50px;
+    z-index: -5;
+}
+
+.content .imgBox img {
+    height: 70vh;
+}
+
+.content .imgBox img:hover {
+    height: 80vh;
+}
+
+/*Content 2*/
+
+.content2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 40px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+
+
+.texto {
+    width: 50%;
+    padding: 10px;
+    padding-left: 20px;
+    border: 1.2px black solid;
+    border-radius: 10px;
+    margin-left: 30px;
+    z-index: 5;
+}
+
+.texto h1 {
+    padding-bottom: 25px;
+}
+
+.content2 .imgBox2 {
+    width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.imgBox2 img {
+    height: 70vh;
+}
+
+
+/*content 3*/
+
+.content3 {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    background-color: white;
+    padding-top: 100px;
+    height: 900px;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 500px 100px;
+    grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+    align-items: center;
+    justify-items: center;
+    overflow: hidden;
+
+}
+
+.proyectos {
+   position: relative;
+   bottom: 50%;
+   left: 55%;
+}
+
+.parallax {
+    background-image: url("../img/blacky.jpg");
+    padding-top: 50px;
+    text-align: center;
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.parallax h2 {
+    color: #D8D8D8;
+    font-size: 40px;
+}
+
+.contacto {
+    color: white;
+    width: 15%;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(137, 66, 188);
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 3%;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 42%;
+
+}
+
+.contacto a {
+    text-decoration: none;
+}
+
+.contacto:hover {
+    color: rgb(137, 66, 188);
+    background: white;
+    transition: 1s;
+}
+
+
+
+/*carousel de imagenes*/
+
+.slider {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    /*
+        La propiedad transform-style decide si los elementos anidados 
+        presevan las transformación 3d (preseve-3d) o no (flat).
+        En nuestro caso, queremos que el elemento .slider tenga 
+        transform-style:preserve-3d ya que queremos que los elementos
+        hijos tengan un aspecto tridimensional (3d)
+    */
+    transform-style: preserve-3d;
+    animation: rotate 25s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.slider span {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i)*45deg)) translateZ(350px);
+}
+
+.slider span img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 2s;
+}
+
+.slider span:hover img {
+    transform: translateY(-50px) scale(1.2);
+   
+}
+
+
+
+
+
+/*Copyright*/
+.copyright {
+    position: absolute;
+    bottom: 0px;
+    left: 550px;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+
+}
+
+/*redes sociales*/
+.redesSociales {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+
+.redesSociales li {
+    padding: 10px
+}
+
+.redesSociales li a {
+    color: white;
+    font-size: 2.5em;
+    transition: 0.3s;
+}
+
+
+/*media querys*/
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    header .navbar li {
+        margin-left: 15px;
+    }
+
+    .content .tituloBox h2 {
+        font-size: 3.5em;
+    }
+
+    .content .tituloBox p {
+        font-size: 1.5em;
+    }
+
+    .content .tituloBox a {
+        font-size: 0.9em;
+    }
+
+    .content .imgBox {
+        padding-right: 20px;
+    }
+
+    .content2 {
+        padding-top: 50px;
+        width: 100%;
+    }
+}
