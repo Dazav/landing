@@ -285,7 +285,7 @@ h1 {
 /*div con efecto parallax*/
 .parallax {
     background-image: url("../img/blacky.jpg");
-    padding-top: 30px;
+    padding-top: 10px;
     text-align: center;
     min-height: 300px;
     background-attachment: fixed;
