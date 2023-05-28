@@ -252,6 +252,7 @@ h1 {
     border: 1.2px black solid;
     border-radius: 20px;
     width: 20vw;
+    background-color: whitesmoke;
 }
 .proyectos2 p{
   font-size: 0.7em;
@@ -260,6 +261,28 @@ h1 {
     
 }
 
+
+
+.proyectos3{
+    position:relative;
+    text-align: center;
+    top: 40vh;
+    left: 25vh;
+    border: 1.2px black solid;
+    border-radius: 20px;
+    width: 20vw;
+    background-color: whitesmoke;
+}
+.proyectos3 p{
+  font-style:oblique;
+  font-size: 1.1em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+    
+}
+
+/*div con efecto parallax*/
 .parallax {
     background-image: url("../img/blacky.jpg");
     padding-top: 50px;
@@ -270,7 +293,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
-    padding-top: 8%;
+    padding-top: 7%;
 }
 
 .parallax h2 {
