@@ -81,6 +81,7 @@ header .navbar li a {
     text-transform: uppercase;
 }
 
+/*efecto al hoverear los elementos de la navbar*/
 header .navbar li a:hover {
     border-bottom: 5px solid rgb(137, 66, 188);
     padding: 2px;
@@ -93,7 +94,7 @@ header .navbar li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .content .tituloBox {
@@ -192,6 +193,10 @@ h1 {
     padding-bottom: 25px;
 }
 
+.texto p{
+    font-size: 20px;
+}
+
 .content2 .imgBox2 {
     width: 200px;
     display: flex;
@@ -225,11 +230,18 @@ h1 {
 }
 
 .proyectos {
+
    position: relative;
-   bottom: 50%;
-   left: 55%;
+   bottom: 55%;
+   left: 60%;
 }
 
+.proyectos h2{
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-style:oblique;
+    text-transform: uppercase;
+}
 .parallax {
     background-image: url("../img/blacky.jpg");
     padding-top: 50px;
@@ -254,21 +266,20 @@ h1 {
     font-size: 1.5em;
     text-decoration: none;
     text-transform: uppercase;
-    background: rgb(137, 66, 188);
-    border-radius: 5px;
     padding: 0 10px;
     margin-top: 3%;
     font-family: sans-serif;
     font-weight: 600;
     margin-left: 42%;
-
 }
 
 .contacto a {
     text-decoration: none;
+    border-radius: 5px;
+    background: rgb(137, 66, 188);
 }
 
-.contacto:hover {
+.contacto a:hover {
     color: rgb(137, 66, 188);
     background: white;
     transition: 1s;

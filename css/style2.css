@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/4595241-simple-simple-background-gradient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(137, 66, 188);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+header .logo:hover {
+    color: rgb(137, 66, 188);
+    background: white;
+    transition: 1s;
+}
+
+header .navbar {
+    position: relative;
+    display: flex;
+}
+
+header .navbar li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+/*efecto al hoverear los elementos de la navbar*/
+header .navbar li a:hover {
+    border-bottom: 5px solid rgb(137, 66, 188);
+    padding: 2px;
+}
+
+/*contenido de la web*/
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.content .tituloBox {
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+}
+
+.content .tituloBox h2 {
+    font-size: 4.5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.content .tituloBox h2 span {
+    background: rgb(137, 66, 188);
+    color: white;
+    padding: 0 10px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 20px;
+}
+
+.content .tituloBox p {
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.content .tituloBox a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(137, 66, 188);
+    background: white;
+    padding: 10px 20px;
+    margin: left 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.content .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -50px;
+    z-index: -5;
+}
+
+.content .imgBox img {
+    height: 70vh;
+}
+
+.content .imgBox img:hover {
+    height: 80vh;
+}
